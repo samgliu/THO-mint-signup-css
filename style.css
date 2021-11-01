@@ -1,0 +1,204 @@
+body {
+    font-family: 'AvenirNext', Avenir, 'Helvetica Neue', Helvetica, Arial,
+        sans-serif;
+    background-color: #eceef1;
+}
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 0.5em;
+    height: 40px;
+}
+header button {
+    background-color: rgb(0, 119, 197);
+    color: white;
+    border-radius: 4px;
+    border: 1px solid rgb(0, 119, 197);
+    padding: 5px 20px 5px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+.headerInfo {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    line-height: 18px;
+}
+.headImg img {
+    height: 35px;
+    width: 118px;
+}
+
+.headerInfo a {
+    text-decoration: none;
+    color: rgb(0, 119, 197);
+}
+
+.signupForm {
+    margin: 40px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.formHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 0.5em;
+}
+.formHeader div {
+    display: flex;
+    gap: 0.3em;
+    align-items: center;
+    justify-content: center;
+}
+.icon {
+    width: 23px;
+    height: 23px;
+}
+.form {
+    background-color: white;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 2px;
+    width: 380px;
+    height: 631px;
+}
+.fieldHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fieldHeader h2 {
+    line-height: 26.4px;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+.psPara p {
+    font-weight: 300;
+    font-size: 14px;
+    color: rgb(199, 199, 199);
+    line-height: 16.8px;
+    text-align: center;
+}
+.psPara p a,
+.statementPara a,
+.footer a {
+    text-decoration: none;
+    color: rgb(0, 119, 197);
+}
+#submit {
+    background-image: url('./images/lock.svg');
+    background-repeat: no-repeat;
+    background-position: 90px 8px;
+    background-size: 1em;
+    width: 310px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(0, 119, 197);
+    color: white;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    cursor: pointer;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+}
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+}
+#password {
+    background-image: url('./images/lockleft.png');
+    background-repeat: no-repeat;
+    background-position: 275px 8px;
+    background-size: 1em;
+}
+#password img {
+    width: 24px;
+    height: 24px;
+}
+
+#password:focus {
+    background-image: none;
+}
+fieldset input {
+    margin-top: 10px;
+    width: 300px;
+    height: 32px;
+    font-size: 1.2em;
+    border: 1px solid rgb(118, 118, 118);
+}
+fieldset input:focus {
+    border: 1px solid rgb(118, 118, 118);
+    outline: none !important;
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 3px 10px rgba(32, 126, 233, 0.3);
+}
+.smallFont {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 15px;
+    font-size: 10px;
+    color: rgb(199, 199, 199);
+}
+.statementPara {
+    margin-top: 1em;
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+    color: rgb(155, 155, 155);
+}
+.statementPara p {
+    margin: 2px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.legalState {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 20px;
+    color: rgb(155, 155, 155);
+}
+.legalState a {
+    text-decoration: none;
+    color: black;
+}
+.footer {
+    width: 100%;
+    background-color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.footer a {
+    padding-left: 20px;
+    font-size: 0.8em;
+}
